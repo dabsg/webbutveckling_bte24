@@ -1,0 +1,69 @@
+body{
+    
+    width: 100vw;
+    height:100vh;
+}
+
+header{
+    grid-area: h;
+    background-color:pink;
+}
+nav{
+    grid-area: n;
+    background-color: aquamarine;
+}
+main{
+
+    grid-area: m;
+    background-color: beige;
+}
+aside{
+    grid-area: a;
+    background-color: bisque;
+
+}
+footer{
+    grid-area: f;
+    background-color: darkgrey;
+}
+
+.grid{
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 75% 25% ;
+    grid-template-rows: 10% 5% 80% 5%;
+    grid-template-areas: 
+        "h h" 
+        "n n" 
+        "m a" 
+        "f f";
+
+
+}
+@media screen and (max-width:800px){
+
+
+.grid{
+
+
+    grid-template-rows:10% 5% 50% 30% 5%;
+     grid-template-areas: 
+        "h h" 
+        "n n" 
+        "m m"
+        "a a" 
+        "f f";
+
+
+}
+
+
+
+
+
+}
+
+
