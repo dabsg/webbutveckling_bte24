@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="rubrik"> hej </h1>
+
+    <div id="knapp">  click here </div>
+<script>
+
+document.getElementById("knapp").addEventListener("click",function(){ 
+
+    console.log("knappen fungera");
+
+    document.getElementById("rubrik").innerHTML=" du har klickat";
+
+ });
+
+
+</script>
+
+</body>
+</html>
