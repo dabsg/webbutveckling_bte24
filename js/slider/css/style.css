@@ -1,9 +1,19 @@
+body{
+
+    margin:0px;
+}
+#left{
+
+    display:none;
+}
+
+
 
 #window{
 
     height: 300px;
     width: 200px;
-    overflow: hidden;
+   
 
 
 }
